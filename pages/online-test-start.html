@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Test - IndiaBIX Clone</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="top-bar">
+    <button class="hamburger" id="hamburger">&#9776;</button>
+    <h1 class="logo-title">IndiaBIX</h1>
+    <div class="search-bar">
+        <input type="search" id="searchInput" placeholder="Search topics...">
+        <button id="searchBtn">Search</button>
+    </div>
+    <div class="action-buttons">
+      <button id="shareButton">Share</button>
+      <button id="darkModeToggle">Mode</button>
+      <a href="profile.html"><button>Profile</button></a>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main class="main-content">
+    <h2 id="testTitle">Loading Test...</h2>
+    <p id="breadcrumbs">Home >> Online Tests >> <span id="breadcrumbTitle"></span></p>
+
+    <div class="instructions">
+      <h3>Instructions:</h3>
+      <p>This is a FREE online test. Beware of scammers who ask for money to attend this test.</p>
+      <p>Total number of questions: <span id="totalQuestions"></span></p>
+      <p>Time allotted: <span id="timeLimit"></span> minutes.</p>
+      <p>Each question carries 1 mark; there are no negative marks.</p>
+      <p>DO NOT refresh the page.</p>
+      <p>All the best!</p>
+      <button id="startTestBtn" class="start-btn">Start Test</button>
+    </div>
+  </main>
+
+  <footer class="footer"><p>© IndiaBIX Technologies</p></footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

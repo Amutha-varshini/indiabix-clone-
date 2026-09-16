@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Online Tests - IndiaBIX Clone</title>
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- SIDEBAR -->
+  <aside class="sidebar closed" id="sidebar">
+    <nav>
+      <ul>
+        <li></li>
+        <li></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="topic.html?name=Arithmetic%20Aptitude">Arithmetic Aptitude</a></li>
+        <li><a href="topic.html?name=Data%20Interpretation">Data Interpretation</a></li>
+        <li><a href="topic.html?name=Verbal%20Ability">Verbal Ability</a></li>
+        <li><a href="topic.html?name=Logical%20Reasoning">Logical Reasoning</a></li>
+        <li><a href="topic.html?name=Verbal%20Reasoning">Verbal Reasoning</a></li>
+        <li><a href="topic.html?name=Non%20Verbal%20Reasoning">Non Verbal Reasoning</a></li>
+        <li> <a href="online-tests.html">Online Tests</a></li>
+        <li><a href="topic.html?name=Current%20Affairs">Current Affairs</a></li>
+        <li><a href="topic.html?name=Basic%20General%20Knowledge">Basic General Knowledge</a></li>
+        <li><a href="topic.html?name=HR%20Interview">HR Interview</a></li>
+        <li><a href="topic.html?name=Group%20Discussion">Group Discussion</a></li>
+        <li><a href="topic.html?name=Placement%20Papers">Placement Papers</a></li>
+        <li><a href="topic.html?name=C%20Programming">C Programming</a></li>
+        <li><a href="topic.html?name=C%2B%2B%20Programming">C++ Programming</a></li>
+        <li><a href="topic.html?name=C%23%20Programming">C# Programming</a></li>
+        <li><a href="topic.html?name=Java%20Programming">Java Programming</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <!-- HEADER -->
+  <header class="top-bar">
+    <button class="hamburger" id="hamburger">&#9776;</button>
+    <h1 class="logo-title">IndiaBIX</h1>
+    <div class="search-bar">
+        <input type="search" id="searchInput" placeholder="Search topics...">
+        <button id="searchBtn">Search</button>
+    </div>
+    <div class="action-buttons">
+      <button id="shareButton">Share</button>
+      <button id="darkModeToggle">Mode</button>
+      <div id="userSection">
+        <a href="profile.html"><button id="profileButton">Profile</button></a>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN SECTION -->
+  <main class="main-content">
+    <h2>Online Test Categories</h2>
+    <p id="breadcrumbs"><a href="index.html">Home</a> >> <span>Online Tests</span></p>
+
+    <div id="testCategoriesContainer" class="test-categories"></div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© IndiaBIX Technologies</p>
+  </footer>
+
+  <script src="../js/main.js"></script>
+  <script src="../js/online-tests.js"></script>
+</body>
+</html>
